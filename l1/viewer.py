@@ -118,7 +118,7 @@ class Viewer:
               ', Renderer', GL.glGetString(GL.GL_RENDERER).decode())
 
         # initialize GL by setting viewport and default render characteristics
-        GL.glClearColor(0.1, 0.1, 0.1, 0.1)
+        GL.glClearColor(0.2, 0.3, 0.2, 0.1)
 
         # initially empty list of object to draw
         self.drawables = []
